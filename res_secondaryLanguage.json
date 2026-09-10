@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hallo",
-      "description": "👋  Anish Bade. Fiktive Person für Demonstrationszwecke. Ich arbeite mit den neuesten Front-End-Frameworks wie Angular, React und Vue. Das, was du gerade siehst, ist ein Portfolio-Template von Dorota1997. Wenn dir dieses Portfolio-Template gefällt, denke bitte an ein ⭐, damit es für andere Nutzer besser erkennbar ist. Vielen Dank 💜",
+      "description_header": "Deutsch",
+      "description": "👋  Anish Bade. Echte Person, nur zu Demonstrationszwecken. Ich arbeite mit den neuesten Frontend-Frameworks wie Angular, React und Vue. Was Sie sehen, ist eine Portfolio-Vorlage von Dorota1997. Wenn Ihnen diese Vorlage gefällt, vergessen Sie nicht, sie zu liken, damit andere Nutzer sie leichter finden. Danke 💜💜",
       "section_name": {
         "about": "Über mich",
         "projects": "Projekte",
@@ -13,7 +13,7 @@
       {
         "title": "Animal Shelter",
         "startDate": "2020",
-        "description": "Die umfangreichste Anwendung, an der ich jemals gearbeitet habe. Ich habe viele Technologien kennengelernt und mein Code wurde von einem tollen Betreuer überprüft. Die Anwendung verwaltet alle Adoptionsprozesse und ermöglicht die Speicherung aller Dokumente im Zusammenhang mit der Adoption von Tieren aus dem Tierheim.",
+        "description": "Die bisher umfangreichste App, an der ich gearbeitet habe. Ich habe viel über Technologie gelernt und mein Code wurde von einem hervorragenden Mentor geprüft. Die App verwaltet alle Adoptionsprozesse und ermöglicht es, sämtliche Dokumente im Zusammenhang mit der Adoption von Tieren aus dem Tierheim zu speichern.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -37,7 +37,7 @@
       {
         "title": "Photography",
         "startDate": "2018",
-        "description": "Ein persönliches Projekt für ein Studienfach. Ich war für das Testen der Anwendung verantwortlich, die Fotos mit beliebten Algorithmen optimiert, die in Grafik-Editoren wie Pixlr oder Adobe Photoshop verwendet werden. Ich habe für das Projekt eine 5 bekommen :)",
+        "description": "Ein persönliches Projekt im Rahmen eines Hochschulkurses. Ich war für das Testen einer Anwendung zuständig, die Fotos mithilfe gängiger Algorithmen optimiert, die auch von Bildbearbeitungsprogrammen wie Pixlr und Adobe Photoshop verwendet werden. Ich habe für das Projekt eine Eins bekommen :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -57,7 +57,7 @@
       {
         "title": "3D Object Viewer",
         "startDate": "2015",
-        "description": "Eine der ersten Anwendungen, an denen ich während meines Praktikums gearbeitet habe. Ich musste das Front-End für eine Anwendung entwickeln, die 3D-Modelle bekannter Gebäude zeigt. Das war auch mein erstes Projekt mit Angular. Ich habe viel gelernt!",
+        "description": "Eine der ersten Anwendungen, an denen ich während meines Praktikums gearbeitet habe. Ich musste den Front-End für die Anwendung vorbereiten, die 3D-Modelle bekannter Gebäude zeigt. Dies war auch mein erster Projekt in Angular. Ich habe viel gelernt!",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -83,7 +83,7 @@
       {
         "company": "DefOpenSource",
         "title": "Front-End Developer",
-        "years": "10.2019 - heute",
+        "years": "10.2019 - obecnie",
         "mainTech": [
           "Angular 8/9/10"
         ],
@@ -99,7 +99,7 @@
       },
       {
         "company": "Serros Solutions",
-        "title": "Praktikantin",
+        "title": "Stażystka",
         "years": "01.2018 - 09.2019",
         "mainTech": [
           "Angular 7/8"
