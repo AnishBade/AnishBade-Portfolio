@@ -1,19 +1,19 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋  Anish Bade. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Deutsch",
+      "description": "👋  Anish Bade. Echte Person, nur zu Demonstrationszwecken. Ich arbeite mit den neuesten Frontend-Frameworks wie Angular, React und Vue. Was Sie sehen, ist eine Portfolio-Vorlage von Dorota1997. Wenn Ihnen diese Vorlage gefällt, vergessen Sie nicht, sie zu liken, damit andere Nutzer sie leichter finden. Danke 💜💜",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Über mich",
+        "projects": "Projekte",
+        "skills": "Fähigkeiten",
+        "experience": "Erfahrung"
       }
     },
     "projects": [
       {
         "title": "Animal Shelter",
         "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "description": "Die bisher umfangreichste App, an der ich gearbeitet habe. Ich habe viel über Technologie gelernt und mein Code wurde von einem hervorragenden Mentor geprüft. Die App verwaltet alle Adoptionsprozesse und ermöglicht es, sämtliche Dokumente im Zusammenhang mit der Adoption von Tieren aus dem Tierheim zu speichern.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -37,7 +37,7 @@
       {
         "title": "Photography",
         "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "description": "Ein persönliches Projekt im Rahmen eines Hochschulkurses. Ich war für das Testen einer Anwendung zuständig, die Fotos mithilfe gängiger Algorithmen optimiert, die auch von Bildbearbeitungsprogrammen wie Pixlr und Adobe Photoshop verwendet werden. Ich habe für das Projekt eine Eins bekommen :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -57,7 +57,7 @@
       {
         "title": "3D Object Viewer",
         "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "description": "Eine der ersten Anwendungen, an denen ich während meines Praktikums gearbeitet habe. Ich musste den Front-End für die Anwendung vorbereiten, die 3D-Modelle bekannter Gebäude zeigt. Dies war auch mein erster Projekt in Angular. Ich habe viel gelernt!",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
