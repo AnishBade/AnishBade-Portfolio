@@ -1,118 +1,183 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Anish Bade. Real person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I’m Anish Bade, an M.Sc. Global Software Development student at Fulda University of Applied Sciences. I bring 2+ years of experience building backend services and REST APIs with FastAPI and Django, deploying them with Docker and Kubernetes, and writing automated tests and regression suites. I enjoy working across the full product lifecycle and building software that supports critical and high-stakes systems with reliability in mind.",
+    "section_name": {
+      "about": "About me",
+      "education": "Education",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Al Safar",
+      "startDate": "2024",
+      "description": "Al Safar is a pilgrims guiding platform with a FastAPI backend, role-based access control, real-time features, and a React-based admin dashboard. I contributed as both a backend developer and a React developer in its delivery, and it was deployed with Docker, Kubernetes, and GitLab CI/CD.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "FastAPI"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Kubernetes"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Sitedeck",
+      "startDate": "2024",
+      "description": "Construction management platform with a scalable FastAPI backend and ML pipeline for invoice OCR and NLP-based data extraction. Includes RBAC and enterprise-ready service design.",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "FastAPI"
+        },
+        {
+          "class": "devicon-pytorch-original",
+          "name": "PyTorch"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-numpy-original",
+          "name": "NLP"
+        }
+      ]
+    },
+    {
+      "title": "SBOM Management Platform",
+      "startDate": "2023",
+      "description": "Backend APIs for a large-scale software bill of materials platform, integrating SQL and NoSQL systems for secure and high-performance data processing and vulnerability tracking workflows.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "FastAPI"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Kodiary Technologies",
+      "title": "Software Engineer",
+      "years": "06/2024 – 08/2025",
+      "mainTech": [
+        "FastAPI",
+        "Django",
+        "React"
+      ],
+      "technologies": [
+        "Docker",
+        "Kubernetes",
+        "GitLab CI/CD",
+        "RBAC",
+        "Celery",
+        "RabbitMQ",
+        "Socket.IO",
+        "Regression testing"
+      ]
+    },
+    {
+      "company": "Tekvortex Pvt. Ltd.",
+      "title": "Associate Software Engineer",
+      "years": "07/2023 – 05/2024",
+      "mainTech": [
+        "FastAPI",
+        "SQL",
+        "NoSQL"
+      ],
+      "technologies": [
+        "SBOM",
+        "Vulnerability tracking",
+        "DevSecOps",
+        "Backend APIs",
+        "Data processing"
+      ]
+    },
+    {
+      "company": "Xbuild Constructions Pvt. Ltd.",
+      "title": "IT Consultant (Freelance)",
+      "years": "07/2024 – 12/2025",
+      "mainTech": [
+        "Website development",
+        "Internal systems"
+      ],
+      "technologies": [
+        "IT support",
+        "Deployment",
+        "Custom platform delivery",
+        "Client communication"
+      ]
+    },
+    {
+      "company": "Programiz (Parewa Labs Pvt. Ltd.)",
+      "title": "Technical Content Writer",
+      "years": "05/2023 – 07/2023",
+      "mainTech": [
+        "Python",
+        "Data structures",
+        "Algorithms"
+      ],
+      "technologies": [
+        "Tutorial writing",
+        "Quizzes",
+        "Agile sprints",
+        "Content strategy"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. Global Software Development",
+      "institution": "Fulda University of Applied Sciences",
+      "location": "Fulda, Germany",
+      "period": "April 2026 – Present"
+    },
+    {
+      "degree": "B.Sc. Electronics, Communication and Information Engineering",
+      "institution": "IOE, Pulchowk Campus",
+      "location": "Lalitpur, Nepal",
+      "period": "Feb 2019 – Apr 2023"
+    }
+  ]
+}
