@@ -4,6 +4,7 @@ import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -34,12 +35,17 @@ class App extends Component {
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+
+    const oppositeIcon = document.getElementById(oppositeLangIconId);
+    const pickedIcon = document.getElementById(pickedLangIconId);
+
+    if (oppositeIcon) {
+      oppositeIcon.removeAttribute("filter");
+    }
+
+    if (pickedIcon) {
+      pickedIcon.setAttribute("filter", "brightness(40%)");
+    }
   }
 
   componentDidMount() {
@@ -120,6 +126,10 @@ class App extends Component {
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
+        />
+        <Education
+          resumeEducation={this.state.resumeData.education}
+          resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Projects
           resumeProjects={this.state.resumeData.projects}
