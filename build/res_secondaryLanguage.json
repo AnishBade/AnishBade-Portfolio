@@ -1,0 +1,183 @@
+{
+  "basic_info": {
+    "description_header": "Hallo",
+    "description": "👋 Ich bin Anish Bade, Student der M.Sc. Global Software Development an der Fulda University of Applied Sciences. Ich habe über 2 Jahre Erfahrung beim Aufbau von Backend-Services und REST-APIs mit FastAPI und Django, beim Deployment mit Docker und Kubernetes sowie beim Schreiben automatisierter Tests und Regressionstests. Ich arbeite gern über den gesamten Entwicklungszyklus hinweg und baue Software, die kritische und hochriskante Systeme zuverlässig unterstützt.",
+    "section_name": {
+      "about": "Über mich",
+      "education": "Ausbildung",
+      "projects": "Projekte",
+      "skills": "Skills",
+      "experience": "Erfahrung"
+    }
+  },
+  "projects": [
+    {
+      "title": "Al Safar",
+      "startDate": "2024",
+      "description": "Al Safar ist eine Pilgerleitplattform mit FastAPI-Backend, rollenbasierter Zugriffskontrolle, Echtzeitfunktionen und einem React-basierten Admin-Dashboard. Ich habe an der Umsetzung als Backend-Developer und React-Developer mitgewirkt, und die Plattform wurde mit Docker, Kubernetes und GitLab CI/CD bereitgestellt.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "FastAPI"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-kubernetes-plain",
+          "name": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "title": "Sitedeck",
+      "startDate": "2024",
+      "description": "Bauprojekt-Managementplattform mit skalierbarem FastAPI-Backend und ML-Pipeline für Rechnungs-OCR und NLP-basierte Datenerfassung. Enthält RBAC und eine für Unternehmen geeignete Servicearchitektur.",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "FastAPI"
+        },
+        {
+          "class": "devicon-pytorch-original",
+          "name": "PyTorch"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-numpy-original",
+          "name": "NLP"
+        }
+      ]
+    },
+    {
+      "title": "SBOM-Management-Plattform",
+      "startDate": "2023",
+      "description": "Backend-APIs für eine groß angelegte Plattform zur Verwaltung von Software Bills of Materials, mit SQL- und NoSQL-Integrationen für sichere und leistungsstarke Datenverarbeitung und Schwachstellen-Tracking-Workflows.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "FastAPI"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Kodiary Technologies",
+      "title": "Software Engineer",
+      "years": "06/2024 – 08/2025",
+      "mainTech": [
+        "FastAPI",
+        "Django",
+        "React"
+      ],
+      "technologies": [
+        "Docker",
+        "Kubernetes",
+        "GitLab CI/CD",
+        "RBAC",
+        "Celery",
+        "RabbitMQ",
+        "Socket.IO",
+        "Regressionstests"
+      ]
+    },
+    {
+      "company": "Tekvortex Pvt. Ltd.",
+      "title": "Associate Software Engineer",
+      "years": "07/2023 – 05/2024",
+      "mainTech": [
+        "FastAPI",
+        "SQL",
+        "NoSQL"
+      ],
+      "technologies": [
+        "SBOM",
+        "Schwachstellenmanagement",
+        "DevSecOps",
+        "Backend-APIs",
+        "Datenverarbeitung"
+      ]
+    },
+    {
+      "company": "Xbuild Constructions Pvt. Ltd.",
+      "title": "IT Consultant (Freelance)",
+      "years": "07/2024 – 12/2025",
+      "mainTech": [
+        "Webentwicklung",
+        "Interne Systeme"
+      ],
+      "technologies": [
+        "IT-Support",
+        "Bereitstellung",
+        "Individuelle Plattformentwicklung",
+        "Kundenkommunikation"
+      ]
+    },
+    {
+      "company": "Programiz (Parewa Labs Pvt. Ltd.)",
+      "title": "Technical Content Writer",
+      "years": "05/2023 – 07/2023",
+      "mainTech": [
+        "Python",
+        "Datenstrukturen",
+        "Algorithmen"
+      ],
+      "technologies": [
+        "Tutorials",
+        "Quizze",
+        "Agile Sprints",
+        "Content-Strategie"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc. Global Software Development",
+      "institution": "Fulda University of Applied Sciences",
+      "location": "Fulda, Deutschland",
+      "period": "April 2026 – Heute"
+    },
+    {
+      "degree": "B.Sc. Electronics, Communication and Information Engineering",
+      "institution": "IOE, Pulchowk Campus",
+      "location": "Lalitpur, Nepal",
+      "period": "Feb 2019 – Apr 2023"
+    }
+  ]
+}
