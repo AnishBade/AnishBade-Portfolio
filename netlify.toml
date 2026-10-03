@@ -1,6 +1,5 @@
+# This branch contains the pre-compiled React output, not the app source,
+# so there is nothing to build — Netlify publishes the `build` folder as-is.
 [build]
-  command = "npm run build"
+  command = ""
   publish = "build"
-
-[build.environment]
-  NODE_OPTIONS = "--openssl-legacy-provider"
