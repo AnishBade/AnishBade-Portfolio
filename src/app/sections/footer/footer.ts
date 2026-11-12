@@ -22,7 +22,7 @@ import { PROFILE, UI } from '../../data/content';
   `,
   template: `
     <div class="wrap inner">
-      <p>© {{ year }} {{ profile.name }}</p>
+      <p>© {{ year }} <span class="notranslate" translate="no">{{ profile.name }}</span></p>
       <p>{{ i18n.t(ui.footerBuilt) }}</p>
       <a href="#top">{{ i18n.t(ui.backToTop) }}</a>
     </div>

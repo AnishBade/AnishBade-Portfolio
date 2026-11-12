@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, inject, input } from '@angular/core
 import { LanguageService } from '../core/language.service';
 import { Text } from '../data/models';
 
-/** A row of small monospace technology tags. */
+/** A row of small technology tags. */
 @Component({
   selector: 'app-tag-list',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -14,7 +14,7 @@ import { Text } from '../data/models';
       border-radius: 6px;
       background: var(--surface-2);
       color: var(--ink-2);
-      font: 400 12px/1.6 var(--mono);
+      font: 400 12px/1.6 var(--sans);
     }
   `,
   template: `

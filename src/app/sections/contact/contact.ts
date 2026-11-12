@@ -15,7 +15,7 @@ import { Reveal } from '../../shared/reveal.directive';
       <h2>{{ i18n.t(contact.title) }}</h2>
       <p class="lede">{{ i18n.t(contact.lede) }}</p>
 
-      <a class="mail" [href]="'mailto:' + profile.email">
+      <a class="mail notranslate" translate="no" [href]="'mailto:' + profile.email">
         {{ profile.email }}
         <app-icon name="arrow-up-right" />
       </a>

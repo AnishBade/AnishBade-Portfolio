@@ -8,9 +8,8 @@
 .grid > div { padding: 26px 24px 26px 0; }
 .grid > div + div { padding-left: 24px; border-left: 1px solid var(--line); }
 dt {
-  font-family: var(--serif);
   font-size: clamp(28px, 3.2vw, 38px);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.1;
   white-space: nowrap;

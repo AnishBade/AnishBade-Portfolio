@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, inject, input } from '@angular/core
 import { LanguageService } from '../core/language.service';
 import { Text } from '../data/models';
 
-/** "01 — About" kicker plus a large serif title, used at the top of each section. */
+/** "01 — About" kicker plus a large title, used at the top of each section. */
 @Component({
   selector: 'app-section-heading',
   changeDetection: ChangeDetectionStrategy.OnPush,
