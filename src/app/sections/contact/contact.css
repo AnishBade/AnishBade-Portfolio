@@ -1,0 +1,45 @@
+.contact {
+  display: block;
+  padding-top: clamp(88px, 12vw, 152px);
+  padding-bottom: clamp(72px, 9vw, 112px);
+}
+
+h2 {
+  margin-top: 14px;
+  font-family: var(--serif);
+  font-size: clamp(40px, 6.4vw, 76px);
+  font-variation-settings: "opsz" 96;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  max-width: 12em;
+}
+.lede { margin-top: 20px; max-width: 36em; font-size: 17.5px; color: var(--ink-2); }
+
+.mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 36px;
+  padding-bottom: 4px;
+  font-family: var(--serif);
+  font-size: clamp(20px, 3.2vw, 34px);
+  letter-spacing: -0.015em;
+  text-decoration: none;
+  border-bottom: 2px solid var(--accent);
+  word-break: break-all;
+  transition: color 0.15s ease;
+}
+.mail:hover { color: var(--accent); }
+.mail app-icon { font-size: 0.8em; transition: transform 0.2s ease; }
+.mail:hover app-icon { transform: translate(3px, -3px); }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  margin-top: 32px;
+  font: 400 14px/1.4 var(--mono);
+  color: var(--ink-3);
+}
+.links a { text-decoration: none; color: var(--ink); }
+.links a:hover { color: var(--accent); }

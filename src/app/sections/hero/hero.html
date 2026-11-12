@@ -1,0 +1,49 @@
+<section class="hero wrap" id="top">
+  <div class="text">
+    <p class="status">
+      <span class="dot" aria-hidden="true"></span>
+      {{ i18n.t(profile.status) }}
+    </p>
+    <h1 class="name">{{ profile.name }}</h1>
+    <p class="role">{{ i18n.t(profile.role) }}</p>
+    <p class="lede">{{ i18n.t(profile.lede) }}</p>
+
+    <div class="actions no-print">
+      <a class="btn btn-primary" [href]="'mailto:' + profile.email">
+        <app-icon name="mail" />
+        {{ i18n.t(ui.contactCta) }}
+      </a>
+      <a class="btn btn-ghost" [href]="profile.linkedin" target="_blank" rel="noopener">
+        <app-icon name="linkedin" />
+        LinkedIn
+      </a>
+      <a class="btn btn-ghost" [href]="profile.github" target="_blank" rel="noopener">
+        <app-icon name="github" />
+        GitHub
+      </a>
+    </div>
+  </div>
+
+  <figure class="visual">
+    <div class="portrait">
+      <img
+        src="images/anish-bade.jpg"
+        width="720"
+        height="803"
+        [alt]="i18n.t(ui.portraitAlt)"
+        fetchpriority="high"
+      />
+    </div>
+
+    <!-- A little nod to backend work: me, as an API response. -->
+    <div class="api-card no-print" aria-hidden="true">
+      <div class="api-head"><span class="method">GET</span> /api/anish <span class="ok">200 OK</span></div>
+      <pre><code>{{ '{' }}
+  <span class="k">"role"</span>: <span class="s">"Software Engineer"</span>,
+  <span class="k">"stack"</span>: [<span class="s">"Python"</span>, <span class="s">"FastAPI"</span>, <span class="s">"React"</span>],
+  <span class="k">"based_in"</span>: <span class="s">"Fulda, DE"</span>,
+  <span class="k">"speaks"</span>: [<span class="s">"en"</span>, <span class="s">"de-B2"</span>, <span class="s">"ne"</span>]
+{{ '}' }}</code></pre>
+    </div>
+  </figure>
+</section>

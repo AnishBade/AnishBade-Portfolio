@@ -1,0 +1,31 @@
+<section class="section wrap" id="projects">
+  <app-section-heading appReveal number="03" [label]="label" [title]="title" />
+
+  <div class="grid">
+    @for (project of projects; track $index) {
+      <article class="project card" [class.featured]="project.featured" appReveal>
+        <div class="intro">
+          <div class="top">
+            <span class="badge">{{ i18n.t(project.badge) }}</span>
+            <span class="year">{{ project.year }}</span>
+          </div>
+          <h3>{{ i18n.t(project.name) }}</h3>
+          <p class="subtitle">{{ i18n.t(project.subtitle) }}</p>
+          @if (project.summary) {
+            <p class="summary">{{ i18n.t(project.summary) }}</p>
+          }
+        </div>
+
+        @if (project.bullets) {
+          <ul class="bullets">
+            @for (bullet of project.bullets; track $index) {
+              <li>{{ i18n.t(bullet) }}</li>
+            }
+          </ul>
+        }
+
+        <app-tag-list [tags]="project.tags" />
+      </article>
+    }
+  </div>
+</section>

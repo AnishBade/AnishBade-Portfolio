@@ -1,0 +1,46 @@
+.grid { display: grid; grid-template-columns: 1fr 1fr 0.8fr; gap: 16px; }
+.card { padding: 26px; }
+
+.eyebrow {
+  font: 500 12.5px/1 var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+h3 {
+  margin-top: 14px;
+  font-family: var(--serif);
+  font-size: 23px;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+.school { margin-top: 8px; color: var(--ink-2); font-size: 15px; }
+.note { margin-top: 14px; color: var(--ink-3); font-size: 14.5px; }
+.pill {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.languages ul { margin-top: 10px; }
+.languages li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.languages li:last-child { border-bottom: 0; }
+.level { font: 400 13px/1 var(--mono); color: var(--ink-3); }
+
+@media (max-width: 1020px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .languages { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; }
+}

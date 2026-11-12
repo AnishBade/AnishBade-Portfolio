@@ -1,0 +1,9 @@
+{
+  "name": "Anish Bade — Software Engineer",
+  "short_name": "Anish Bade",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f7f5f0",
+  "theme_color": "#17161a",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

@@ -1,0 +1,25 @@
+<section class="section wrap" id="experience">
+  <app-section-heading appReveal number="02" [label]="label" [title]="title" />
+
+  <ol class="timeline">
+    @for (job of jobs; track job.company) {
+      <li class="job" appReveal>
+        <div class="meta">
+          <p class="date">{{ i18n.t(job.period) }}</p>
+          <p class="location">{{ job.location }}</p>
+        </div>
+        <div>
+          <h3>
+            {{ i18n.t(job.role) }} <span class="at">·</span> <span class="company">{{ job.company }}</span>
+          </h3>
+          <ul class="bullets">
+            @for (bullet of job.bullets; track $index) {
+              <li>{{ i18n.t(bullet) }}</li>
+            }
+          </ul>
+          <app-tag-list [tags]="job.tags" />
+        </div>
+      </li>
+    }
+  </ol>
+</section>

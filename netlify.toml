@@ -1,5 +1,30 @@
-# This branch contains the pre-compiled React output, not the app source,
-# so there is nothing to build — Netlify publishes the `build` folder as-is.
+# Angular app, prerendered to static HTML at build time.
 [build]
-  command = ""
-  publish = "build"
+  command = "npm run build"
+  publish = "dist/anish-portfolio/browser"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+
+# Hashed bundles never change, so they can be cached forever.
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "https://anishbade.com/*"
+  to = "https://www.anishbade.com/:splat"
+  status = 301
+  force = true

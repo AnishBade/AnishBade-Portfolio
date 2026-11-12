@@ -1,0 +1,23 @@
+<section class="section wrap" id="about">
+  <app-section-heading appReveal number="01" [label]="label" [title]="about.title" />
+
+  <div class="grid">
+    <div class="prose">
+      @for (paragraph of about.paragraphs; track $index) {
+        <p>{{ i18n.t(paragraph) }}</p>
+      }
+    </div>
+
+    <ul class="focus">
+      @for (area of focus; track area.icon) {
+        <li class="card" appReveal>
+          <span class="focus-icon"><app-icon [name]="area.icon" /></span>
+          <div>
+            <h3>{{ i18n.t(area.title) }}</h3>
+            <p>{{ i18n.t(area.text) }}</p>
+          </div>
+        </li>
+      }
+    </ul>
+  </div>
+</section>

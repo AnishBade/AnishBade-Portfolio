@@ -1,0 +1,43 @@
+<div class="wrap inner">
+  <a class="brand" href="#top" [attr.aria-label]="profile.name">
+    <span class="brand-mark" aria-hidden="true">{{ profile.initials }}</span>
+    <span class="brand-name">{{ profile.name }}</span>
+  </a>
+
+  <nav class="nav" id="site-nav" aria-label="Primary" [class.open]="menuOpen()">
+    @for (item of nav; track item.id) {
+      <a
+        [href]="'#' + item.id"
+        [class.active]="activeSection() === item.id"
+        (click)="menuOpen.set(false)"
+        >{{ i18n.t(item.label) }}</a
+      >
+    }
+  </nav>
+
+  <div class="tools">
+    <div class="lang-switch" role="group" [attr.aria-label]="i18n.t(ui.language)">
+      @for (lang of languages; track lang) {
+        <button type="button" [attr.aria-pressed]="i18n.lang() === lang" (click)="i18n.setLang(lang)">
+          {{ lang.toUpperCase() }}
+        </button>
+      }
+    </div>
+
+    <button type="button" class="icon-btn" [attr.aria-label]="i18n.t(ui.toggleTheme)" (click)="theme.toggle()">
+      <app-icon class="i-sun" name="sun" />
+      <app-icon class="i-moon" name="moon" />
+    </button>
+
+    <button
+      type="button"
+      class="icon-btn menu-btn"
+      aria-controls="site-nav"
+      [attr.aria-expanded]="menuOpen()"
+      [attr.aria-label]="i18n.t(ui.openMenu)"
+      (click)="menuOpen.set(!menuOpen())"
+    >
+      <app-icon name="menu" />
+    </button>
+  </div>
+</div>
